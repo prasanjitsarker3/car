@@ -7,7 +7,9 @@ const Header = () => {
     const { logOut, users } = useContext(AuthContext);
     const handleLogOut = () => {
         logOut()
-            .then(() => { })
+            .then(() => { 
+                
+            })
             .catch(console.error(error))
     }
     return (
